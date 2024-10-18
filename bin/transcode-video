@@ -1013,7 +1013,7 @@ HERE
         handbrake_options['encoder-profile'] = 'high'
       when 'x264_10bit'
         handbrake_options['encoder-profile'] = 'high10'
-      when 'x265'
+      when 'x265', 'vt_h265'
         handbrake_options['encoder-profile'] = 'main'
       when 'x265_10bit', 'x265_12bit'
         handbrake_options['encoder-profile'] = 'main10'
